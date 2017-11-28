@@ -114,7 +114,6 @@ REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "backend.pagination.StandardPagination",
     "DEFAULT_FILTER_BACKENDS": (
         "rest_framework.filters.SearchFilter",
-        "rest_framework.filters.DjangoFilterBackend",
     ),
 }
 

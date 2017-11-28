@@ -11,8 +11,10 @@ DEBUG = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'USER': '',
-        'NAME': '{{ project_name }}',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'NAME': 'django_teamplate_react',
+        'HOST': 'localhost'
     }
 }
 
